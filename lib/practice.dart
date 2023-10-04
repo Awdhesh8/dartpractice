@@ -49,3 +49,32 @@ void main (){
 
 }
 */
+
+// List --
+void main (){
+
+  var listNames = [1,2,3,4,5];
+
+  print(listNames);
+
+  print(listNames.reversed);
+  print(listNames.length);
+  print(listNames.indexed);
+  // listNames.clear();
+  print(listNames);
+
+  var newlist = [];
+
+  newlist.add('a');
+  print(newlist);
+
+  newlist.addAll(listNames);
+  print(listNames);
+  print(newlist);
+
+
+  // print(listNames.addAll);
+  //
+  // var name = ['awdhesh'];
+
+}
