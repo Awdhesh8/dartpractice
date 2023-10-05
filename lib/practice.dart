@@ -69,8 +69,14 @@ void main (){
   print(newlist);
 
   newlist.addAll(listNames);
+  newlist.insert(1, 'aaA');
+  newlist.insertAll(2,['insert All', 't0', 1,5] );
+  print(newlist);
+  newlist.remove;
   print(listNames);
   print(newlist);
+
+
 
 
   // print(listNames.addAll);
