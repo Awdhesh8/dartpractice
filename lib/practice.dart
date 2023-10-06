@@ -48,7 +48,8 @@ void main (){
  print("Your Result is this: $sum");
 
 }
-*/
+
+
 
 // List --
 void main (){
@@ -82,5 +83,16 @@ void main (){
   // print(listNames.addAll);
   //
   // var name = ['awdhesh'];
+
+}
+*/
+
+
+// List Methods
+void main (){
+
+  var names = [];
+
+
 
 }
