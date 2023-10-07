@@ -93,6 +93,19 @@ void main (){
 
   var names = [];
 
+  // Add the items in list
 
+  names.add('Awdhesh');
+  names.add('Dubey');
+  print(names);
+
+  // To Update Items in list
+
+  names[0] = 'First Name: Awdhesh';
+  names[1] = 'Surname: Dubey';
+  print(names);
+
+  names.replaceRange(0, 2, [1,2,3,4]);
+  print(names);
 
 }
