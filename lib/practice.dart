@@ -85,7 +85,7 @@ void main (){
   // var name = ['awdhesh'];
 
 }
-*/
+
 
 
 // List Methods
@@ -105,7 +105,45 @@ void main (){
   names[1] = 'Surname: Dubey';
   print(names);
 
-  names.replaceRange(0, 2, [1,2,3,4]);
+  names.replaceRange(0, 2, [1,2,3,4,5,6,7,8]);
   print(names);
+
+  names.add('last index');
+  print(names);
+
+  // Delete or remove form the list/index
+
+  names.removeLast();
+
+  // It remove what u want to remove
+  names.remove(3);
+
+
+  print(names);
+
+  // It Removes from the particular index
+  names.removeAt(1);
+
+  print(names);
+
+  print("Length: ${names.length}");
+  print("Reversed: ${names.reversed}");
+  print("First index: ${names.first}");
+  print("Last: ${names.last}");
+  print("Is Empty: ${names.isEmpty}");
+  print("Is Not Empty: ${names.isNotEmpty}");
+  print("Element At: ${names.elementAt(2)}");
+
+
+}
+
+*/
+
+
+// MAP's in Dart
+
+void main (){
+
+
 
 }
