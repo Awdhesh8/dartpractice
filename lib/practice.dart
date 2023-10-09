@@ -144,6 +144,12 @@ void main (){
 
 void main (){
 
+  var map_names = {
+
+    'first_name' : 'The User name',
+    'second_name' : 'The Second User name',
+  };
+
 
 
 }
