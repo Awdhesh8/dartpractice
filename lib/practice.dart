@@ -137,7 +137,6 @@ void main (){
 
 }
 
-*/
 
 
 // MAP's in Dart
@@ -148,7 +147,44 @@ void main (){
 
     'first_name' : 'The User name',
     'second_name' : 'The Second User name',
+    'number' : 2,
+    'double' : 3.0,
+    'boolean' : true,
   };
+
+   map_names['Key1'] = 'New Value';
+
+  print(map_names);
+  print("Map Length: ${map_names.length}");
+  print(map_names.keys);
+  print("Values in map: ${map_names.values}");
+  print(map_names);
+  map_names[''];
+
+
+
+
+}
+*/
+
+
+// Conditional Statements
+
+void main (){
+
+  // var a;
+
+  // stdout.write("What's your Number: ");
+  // var userInput = stdin.readLineSync();
+  // var a = int.tryParse(userInput!);
+  //
+  // if (a!> 200) {
+  //   print("$a This is your Fav Number");
+  // } else if(a==150){
+  //   print("a is equal to $a");
+  // } else{
+  //   print('$a is the random number');
+  // }
 
 
 
