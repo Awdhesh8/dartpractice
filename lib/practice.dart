@@ -187,5 +187,24 @@ void main (){
   // }
 
 
+  // Simple Program to take ser
+  stdout.write('Whats your Name: ');
+  var userName = stdin.readLineSync();
+  stdout.write("What is Your age: ");
+  var takeInput = stdin.readLineSync();
+  // var a = int.tryParse(takeInput!);
+
+  if(takeInput != null){
+    var a = int.tryParse(takeInput);
+
+    if(a! >= 18){
+      print("Your Name is,$userName & your age is $a, \nGreat! now you are eligible to Vote in election");
+    }else if (a < 18){
+      print('Your age is $a, your are not eligible for vote');
+
+    }else if (a<17 && a>10 ){
+      print("Your age is, $a and it lies between 10 to 17");
+    }
+  }
 
 }
