@@ -165,10 +165,11 @@ void main (){
 
 
 }
-*/
+
 
 
 // Conditional Statements
+
 
 void main (){
 
@@ -187,24 +188,106 @@ void main (){
   // }
 
 
-  // Simple Program to take ser
-  stdout.write('Whats your Name: ');
+  // Simple Program to take user input
+
+  // stdout.write('Whats your Name: ');
+  // var userName = stdin.readLineSync();
+  //
+  // stdout.write("What is Your age: ");
+  // var takeInput = stdin.readLineSync();
+  //
+  // // var a = int.tryParse(takeInput!);
+  //
+  // if(takeInput != null){
+  //   var a = int.tryParse(takeInput);
+  //
+  //   if(a! >= 18){
+  //     print("Your Name is,$userName & your age is $a, \nGreat! now you are eligible to Vote in election");
+  //   }else if (a < 18){
+  //     print('Your age is $a, your are not eligible for vote');
+  //
+  //   }else if (a<17 && a>10 ){
+  //     print("Your age is, $a and it lies between 10 to 17");
+  //   }
+  // }
+
+
+  // Another && and || (or gate) Practice.
+
+  stdout.write("What's your Name:");
   var userName = stdin.readLineSync();
-  stdout.write("What is Your age: ");
-  var takeInput = stdin.readLineSync();
-  // var a = int.tryParse(takeInput!);
 
-  if(takeInput != null){
-    var a = int.tryParse(takeInput);
+  stdout.write("What's your Fav subject: ");
+  var userSubject = stdin.readLineSync();
 
-    if(a! >= 18){
-      print("Your Name is,$userName & your age is $a, \nGreat! now you are eligible to Vote in election");
-    }else if (a < 18){
-      print('Your age is $a, your are not eligible for vote');
+  stdout.write("What's your age: ");
+  var userAge = stdin.readLineSync();
 
-    }else if (a<17 && a>10 ){
-      print("Your age is, $a and it lies between 10 to 17");
+  if(userAge != null) {
+    var a = int.tryParse(userAge);
+
+    if (a == null) {
+      print("Invalid age, $a. Please enter valid age.");
     }
-  }
+     else if (a > 1 || a < 11) {
+        print(
+            "Hello, $userName,\nYou are a Small child & your age is $a, and your are in Childhood :) \n Your Favourite subject is $userSubject.");
+      } else if (a >= 12 && a < 18) {
+        print(
+            "Hi,$userName,\n Your age is $a, you are in Middle Childhood age :) \n Your Favourite subject is $userSubject.");
+      } else if (a >= 18 && a <= 50) {
+        print(
+            'Your age is $a, Your are in Adulthood :)\n Your Favourite subject is $userSubject.');
+      }else if (a >= 51) {
+      print(
+          'Your age is $a, Your are in Legend age :)\n Your Favourite subject is $userSubject.');
+    } else {
+        print("Please Enter Valid Age");
+      }
+    }
+
 
 }
+*/
+
+
+// Loops ---
+
+void main (){
+
+  // for (int a = 1; a<=10; a++){
+  //   if(a==5){
+  //     print("a is on 5");
+  //   }
+  //   print("$a: hello");
+  // }
+
+  //
+  // var no = 10;
+  //
+  // while (no <=50 ){
+  //   if( no == 50){
+  //     print("Fifty: $no");
+  //   }
+  //   print('Number is $no');
+  //   no++;
+  // }
+
+  // // FOR IN LOOP---
+
+  // var myList = [1,2,3,4,5];
+  // for (var item in myList){
+  //   print("Items: $myList");
+  // }
+
+  // // FOR EACH METHOD---
+
+  var myListItems = [1, 'a', 2, 'b',3 ];
+  myListItems.forEach((items) {
+    print("Items: $myListItems");
+  });
+
+}
+
+
+
