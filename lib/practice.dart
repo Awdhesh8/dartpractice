@@ -1,12 +1,44 @@
-import 'dart:io';
+// import 'dart:io';
 
-// This is code for Dart Basic concepts and Practice
+// This code to learn Dart learn Basic concepts and Practice
 
 
 // First Program :)
 // void main () {
 //   print('Hello world');
 // }
+
+
+import 'dart:io';
+/*
+void main(){
+
+  stdout.write("Whats Your Name: ");
+  var name = stdin.readLineSync();
+  stdout.write("Whats Your fav Number: ");
+  var num = stdin.readLineSync();
+  print("Lucky Number: $num");
+  print("Hello, $name");
+
+  stdout.write('Hello, Your Name: ');
+  var yourName = stdin.readLineSync();
+  stdout.write('Hi $yourName');
+
+
+}
+*/
+
+
+/*
+void main(){
+
+  stdout.write("what's Your Name: ");
+  var name = stdin.readLineSync();
+  stdout.write("Your fav number: ");
+  var num = stdin.readLineSync();
+  print("Hi, $name. \nyour fav number is: $num. \nThank you." );
+}
+*/
 
 
 
@@ -51,13 +83,12 @@ void main (){
 
 
 
-// List --
+// List ---
 void main (){
 
   var listNames = [1,2,3,4,5];
 
   print(listNames);
-
   print(listNames.reversed);
   print(listNames.length);
   print(listNames.indexed);
@@ -152,7 +183,7 @@ void main (){
     'boolean' : true,
   };
 
-   map_names['Key1'] = 'New Value';
+  map_names['Key1'] = 'New Value';
 
   print(map_names);
   print("Map Length: ${map_names.length}");
@@ -248,7 +279,6 @@ void main (){
 
 
 }
-*/
 
 
 // Loops ---
@@ -289,5 +319,14 @@ void main (){
 
 }
 
+*/
 
+void main (){
+
+  var namesList = ['a', 'b', 'c', 'd','e', 'f'];
+
+  print(namesList.isEmpty);
+  print(namesList);
+
+}
 
