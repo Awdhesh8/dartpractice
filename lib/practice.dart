@@ -1,12 +1,30 @@
-import 'dart:io';
+// import 'dart:io';
 
-// This is code for Dart Basic concepts and Practice
+// This code to learn Dart learn Basic concepts and Practice
 
 
 // First Program :)
 // void main () {
 //   print('Hello world');
 // }
+
+
+import 'dart:io';
+
+void main(){
+
+  stdout.write("Whats Your Name: ");
+  var name = stdin.readLineSync();
+  stdout.write("Whats Your fav Number: ");
+  var num = stdin.readLineSync();
+  print("Lucky Number: $num");
+  print("Hello, $name");
+
+  stdout.write('Hello, Your Name: ');
+  var yourName = stdin.readLineSync();
+  stdout.write('Hi $yourName');
+}
+
 
 
 
@@ -248,7 +266,6 @@ void main (){
 
 
 }
-*/
 
 
 // Loops ---
@@ -289,5 +306,6 @@ void main (){
 
 }
 
+*/
 
 
